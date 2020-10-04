@@ -15,107 +15,107 @@
     <div class="container">
         <h3 class="center text-center mt-4 mb-4 text-muted">Listado de Expresiónes Regulares</h3>
         <div class="row mt-2">
-            <div class="col-3 col-sm-12 fondo-negro">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fondo-negro">
                 <p class="color-verde m-0">//Expresión regular del correo</p>
                 <p class="color-naranja m-0">/^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i</p>
             </div>
-            <div class="col-7">
+            <div class="col-lg-7 col-md-7">
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Direccion de Correo</label>
                     <input type="email" class="form-control" id="correo" placeholder="name@example.com">
                 </div>
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2-lg col-md-2 text-center">
                 <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarCorreo()">Validar</button>
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-3 col-sm-12 fondo-negro">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fondo-negro">
                 <p class="color-verde m-0">//Expresión regular del DUI</p>
                 <p class="color-naranja m-0">/^\d{8}[-][0-9]$/</p>
             </div>
-            <div class="col-7">
+            <div class="col-lg-7 col-md-7">
                 <div class="form-group">
                     <label for="formGroupExampleInput">DUI</label>
                     <input type="text" class="form-control" id="dui" placeholder="12345678-9">
                 </div>
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2-lg col-md-2 text-center">
                 <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarDUI()">Validar</button>
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-3 col-sm-12 fondo-negro">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fondo-negro">
                 <p class="color-verde m-0">//Expresión regular del Telefono</p>
                 <p class="color-naranja m-0">/^\d{4}[-]\d{4}$/</p>
             </div>
-            <div class="col-7">
+            <div class="col-lg-7 col-md-7">
                 <div class="form-group">
                     <label for="formGroupExampleInput">Telefono</label>
                     <input type="text" class="form-control" id="tel" placeholder="7123-4567">
                 </div>
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2-lg col-md-2 text-center">
                 <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarTelefono()">Validar</button>
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-3 col-sm-12 fondo-negro">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fondo-negro">
                 <p class="color-verde m-0">//Expresión regular de una matricula</p>
                 <p class="color-naranja m-0">/^[A-Z]{1,2}\s\d{4}\s([B-D]|[F-H]|[J-N]|[P-T]|[V-Z]){2,3}$/</p>
             </div>
-            <div class="col-7">
+            <div class="col-lg-7 col-md-7">
                 <div class="form-group">
                     <label for="formGroupExampleInput">Matricula</label>
                     <input type="text" class="form-control" id="matricula" placeholder="ES 4345 BDF">
                 </div>
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2-lg col-md-2 text-center">
                 <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarMatricula()">Validar</button>
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-3 col-sm-12 fondo-negro">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fondo-negro">
                 <p class="color-verde m-0">//Expresión regular de numeros</p>
                 <p class="color-naranja m-0">/^-?(?:\d+(?:.\d*)?)$/</p>
             </div>
-            <div class="col-7">
+            <div class="col-lg-7 col-md-7">
                 <div class="form-group">
                     <label for="formGroupExampleInput">Solo Numeros</label>
                     <input type="text" class="form-control" id="numeros" placeholder="12345...">
                 </div>
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2-lg col-md-2 text-center">
                 <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarNumeros()">Validar</button>
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-3 col-sm-12 fondo-negro">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fondo-negro">
                 <p class="color-verde m-0">//Expresión regular de URL</p>
                 <p class="color-naranja m-0">/^(ftp|http|https):\/\/[^ "]+$/</p>
             </div>
-            <div class="col-7">
+            <div class="col-lg-7 col-md-7">
                 <div class="form-group">
                     <label for="formGroupExampleInput">URL</label>
                     <input type="text" class="form-control" id="url" placeholder="http://www.mipaginaweb.com">
                 </div>
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2-lg col-md-2 text-center">
                 <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarURL()">Validar</button>
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-3 col-sm-12 fondo-negro">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fondo-negro">
                 <p class="color-verde m-0">//Expresión regular del Carnet</p>
                 <p class="color-naranja m-0">/^['A-Z']{2}\d{8}$/</p>
             </div>
-            <div class="col-7">
+            <div class="col-lg-7 col-md-7">
                 <div class="form-group">
                     <label for="formGroupExampleInput">Carnet</label>
                     <input type="text" class="form-control" id="carnet" placeholder="GM190372">
                 </div>
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2-lg col-md-2 text-center">
                 <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarCarnet()">Validar</button>
             </div>
         </div>
