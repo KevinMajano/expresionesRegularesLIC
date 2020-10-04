@@ -55,7 +55,7 @@ function ValidarURL(url){
 
 function ValidarCarnet(carnet){
     valor = document.getElementById("carnet").value;
-    if (/^['A-Z']{2}\d{8}$/.test(valor)){
+    if (/^['A-Z']{2}\d{6}$/.test(valor)){
         mensajeModal('success','Exito','Validado con exito');
        } else {
         mensajeModal('error','Error','Ingrese correctamente los campos');
