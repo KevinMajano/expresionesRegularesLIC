@@ -4,7 +4,7 @@ function ValidarCorreo(email){
     if (/^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i.test(valor)){
         mensajeModal('success','Exito','Validado con exito');
        } else {
-        mensajeModal('error','Error','Valide correctamente los campos');
+        mensajeModal('error','Error','Ingrese correctamente los campos');
        }
 }
 
@@ -13,7 +13,7 @@ function ValidarDUI(DUI){
     if (/^\d{8}[-][0-9]$/.test(valor)){
         mensajeModal('success','Exito','Validado con exito');
        } else {
-        mensajeModal('error','Error','Valide correctamente los campos');
+        mensajeModal('error','Error','Ingrese correctamente los campos');
        }
 }
 
@@ -22,7 +22,7 @@ function ValidarTelefono(tel){
     if (/^\d{4}[-]\d{4}$/.test(valor)){
         mensajeModal('success','Exito','Validado con exito');
        } else {
-        mensajeModal('error','Error','Valide correctamente los campos');
+        mensajeModal('error','Error','Ingrese correctamente los campos');
        }
 }
 
@@ -31,7 +31,7 @@ function ValidarMatricula(Matricula){
     if (/^[A-Z]{1,2}\s\d{4}\s([B-D]|[F-H]|[J-N]|[P-T]|[V-Z]){2,3}$/.test(valor)){
         mensajeModal('success','Exito','Validado con exito');
        } else {
-        mensajeModal('error','Error','Valide correctamente los campos');
+        mensajeModal('error','Error','Ingrese correctamente los campos');
        }
 }
 
@@ -40,7 +40,7 @@ function ValidarNumeros(numeros){
     if (/^-?(?:\d+(?:.\d*)?)$/.test(valor)){
         mensajeModal('success','Exito','Validado con exito');
        } else {
-        mensajeModal('error','Error','Valide correctamente los campos');
+        mensajeModal('error','Error','Ingrese correctamente los campos');
        }
 }
 
@@ -49,7 +49,16 @@ function ValidarURL(url){
     if (/^(ftp|http|https):\/\/[^ "]+$/.test(valor)){
         mensajeModal('success','Exito','Validado con exito');
        } else {
-        mensajeModal('error','Error','Valide correctamente los campos');
+        mensajeModal('error','Error','Ingrese correctamente los campos');
+       }
+}
+
+function ValidarCarnet(carnet){
+    valor = document.getElementById("carnet").value;
+    if (/^['A-Z']{2}\d{8}$/.test(valor)){
+        mensajeModal('success','Exito','Validado con exito');
+       } else {
+        mensajeModal('error','Error','Ingrese correctamente los campos');
        }
 }
 

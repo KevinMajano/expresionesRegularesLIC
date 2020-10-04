@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="col-2 text-center">
-                <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarCorreo()">Aceptar</button>
+                <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarCorreo()">Validar</button>
             </div>
         </div>
         <div class="row mt-4">
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="col-2 text-center">
-                <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarDUI()">Aceptar</button>
+                <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarDUI()">Validar</button>
             </div>
         </div>
         <div class="row mt-4">
@@ -56,7 +56,7 @@
                 </div>
             </div>
             <div class="col-2 text-center">
-                <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarTelefono()">Aceptar</button>
+                <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarTelefono()">Validar</button>
             </div>
         </div>
         <div class="row mt-4">
@@ -71,7 +71,7 @@
                 </div>
             </div>
             <div class="col-2 text-center">
-                <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarMatricula()">Aceptar</button>
+                <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarMatricula()">Validar</button>
             </div>
         </div>
         <div class="row mt-4">
@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="col-2 text-center">
-                <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarNumeros()">Aceptar</button>
+                <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarNumeros()">Validar</button>
             </div>
         </div>
         <div class="row mt-4">
@@ -101,7 +101,22 @@
                 </div>
             </div>
             <div class="col-2 text-center">
-                <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarURL()">Aceptar</button>
+                <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarURL()">Validar</button>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-3 fondo-negro">
+                <p class="color-verde m-0">//Expresión regular del Carnet</p>
+                <p class="color-naranja m-0">/^['A-Z']{2}\d{8}$/</p>
+            </div>
+            <div class="col-7">
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Carnet</label>
+                    <input type="text" class="form-control" id="carnet" placeholder="GM190372">
+                </div>
+            </div>
+            <div class="col-2 text-center">
+                <button type="button" class="btn btn-primary btn-lg mt-4" onclick="ValidarCarnet()">Validar</button>
             </div>
         </div>
     </div>
